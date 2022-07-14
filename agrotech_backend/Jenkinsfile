@@ -1,4 +1,4 @@
-	pipeline {
+pipeline {
     agent any
     environment {
         AWS_ACCOUNT_ID="411636737021"
@@ -13,15 +13,15 @@
          stage('Logging into AWS ECR') {
             steps {
                 script {
-                sh "aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 411636737021.dkr.ecr.us-east-1.amazonaws.com"
-                }
+                      sh "aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 411636737021.dkr.ecr.us-east-1.amazonaws.com"
+                       }
                  
-            }
+                  }
         }
         
         stage('Cloning Git') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/ArasanKavi/backend.git']]])     
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: "https://github.com/ArasanKavi/backend.git"]]])     
             }
         }
   
