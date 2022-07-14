@@ -1,0 +1,2542 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "AgroTech",
+        "version": "1.0.0",
+        "title": "AgroTech",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+            "email": "yogeshwaran@doodlblue.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "host": "localhost:2122",
+    "basePath": "/api/v1",
+    "tags": [],
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/user/signup": {
+            "post": {
+                "tags": [
+                    "SignUp"
+                ],
+                "summary": "response",
+                "description": "",
+                "operationId": "signUp",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/signUp"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "User Created Successfully",
+                                "data": {
+                                    "termsAndCondition": true,
+                                    "approvalStatus": "PENDING",
+                                    "_id": "6229e41997d612a399c31611",
+                                    "firstName": "Chandru",
+                                    "lastName": "G",
+                                    "emailId": "chandru.g@gmail.com",
+                                    "password": "$2b$08$RZJc/FIk1YaHfr1rxYbuPOGctR7mdDF2YJlL2Sof.2lgHcNYGgS.W",
+                                    "createdAt": "2022-03-10T11:42:17.289Z",
+                                    "updatedAt": "2022-03-10T11:42:17.289Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/signIn": {
+            "post": {
+                "tags": [
+                    "User Login"
+                ],
+                "summary": "response",
+                "description": "",
+                "operationId": "User Login",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/login"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "message": "Incorrect password",
+                                "data": "Incorrect password"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Login succesfully",
+                                "data": {
+                                    "status": true,
+                                    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMjBhZTc2ZGJmOTQxNDQ4ODRmNTliYiIsImlhdCI6MTY0NjkxMjU4NCwiZXhwIjoxNjQ3NTE3Mzg0fQ.r_3dLZdLJ5zU8Lw2WNaIguM0YgWGTKUz0N_767VMfVI",
+                                    "_id": "6220ae76dbf94144884f59bb",
+                                    "name": "Yogeshwaran",
+                                    "emailId": "vjyogeshwaran99@gmail.com",
+                                    "message": "Login succesfully"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/createAdmin": {
+            "post": {
+                "tags": [
+                    "CreateAdmin"
+                ],
+                "summary": "response",
+                "description": "",
+                "operationId": "signUp",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/createAdmin"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "User Created Successfully",
+                                "data": {
+                                    "_id": "6235ab5c78b7bf9e82cbced8",
+                                    "name": "Chandru",
+                                    "emailId": "chandru.g3@gmail.com",
+                                    "password": "Test@123",
+                                    "roleId": "ROLE_1",
+                                    "mobileNumber": "9500912398",
+                                    "status": "Active",
+                                    "createdAt": "2022-03-19T10:07:24.425Z",
+                                    "updatedAt": "2022-03-19T10:07:24.425Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/editAdmin": {
+            "update": {
+                "tags": [
+                    "EditAdmin"
+                ],
+                "summary": "response",
+                "description": "EditAdmin",
+                "operationId": "EditAdmin",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/createAdmin"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Updated Successfully",
+                                "data": {
+                                    "_id": "6235ab5c78b7bf9e82cbced8",
+                                    "name": "Chandru",
+                                    "emailId": "chandru.g3@gmail.com",
+                                    "password": "Test@123",
+                                    "roleId": "ROLE_1",
+                                    "mobileNumber": "9500912398",
+                                    "status": "Active",
+                                    "createdAt": "2022-03-19T10:07:24.425Z",
+                                    "updatedAt": "2022-03-19T10:07:24.425Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/getAllAdmins": {
+            "get": {
+                "tags": [
+                    "getAdmin"
+                ],
+                "summary": "response",
+                "description": "getAdmin",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    
+                    {
+                        "in": "",
+                        "name": "",
+                        "description": "response",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "pageMeta": {
+                                        "size": 10,
+                                        "page": 1,
+                                        "total": 6,
+                                        "totalPages": 1
+                                    },
+                                    "list": [
+                                        {
+                                            "_id": "6235ab5c78b7bf9e82cbced8",
+                                            "name": "Chandru",
+                                            "emailId": "chandru.g3@gmail.com",
+                                            "password": "Test@1233",
+                                            "roleId": "ROLE_1",
+                                            "mobileNumber": "9500912398",
+                                            "status": "Active",
+                                            "createdAt": "2022-03-19T10:07:24.425Z",
+                                            "updatedAt": "2022-03-19T10:11:24.232Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "_id": "6235953d078554e8eb49e52f",
+                                            "name": "Nishant Kumar",
+                                            "emailId": "nishants440@gmail.com",
+                                            "roleId": "ROLE_5",
+                                            "password": "$2b$08$4GDUOYZQMwLuTFrm8/SYZO8zk9yH9iOcMnOceohWmjcdpq5dV3Iqm",
+                                            "status": "Approved",
+                                            "createdAt": "2022-03-19T08:33:01.020Z",
+                                            "updatedAt": "2022-03-19T08:33:01.020Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "_id": "62359394078554e8eb49e51e",
+                                            "name": "sai prasad",
+                                            "emailId": "sai.prasad@doodleblue.com",
+                                            "roleId": "ROLE_4",
+                                            "password": "$2b$08$l.hlHhkOkTlzbqwhP630XO1ijFwU9l2/TrwIEbEE1yHFRZnzcwijW",
+                                            "status": "Approved",
+                                            "createdAt": "2022-03-19T08:25:56.387Z",
+                                            "updatedAt": "2022-03-19T08:25:56.387Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "_id": "623495e689b906eebff413bf",
+                                            "name": "Chandru G",
+                                            "emailId": "chandru.gg@gmail.com",
+                                            "roleId": "ROLE_4",
+                                            "password": "$2b$08$dZX4GjVrRKPqOhQcECidLuK.Hr56qNbiHdX4Hm129dNLVqOyelpgW",
+                                            "status": "Approved",
+                                            "createdAt": "2022-03-18T14:23:34.455Z",
+                                            "updatedAt": "2022-03-18T14:23:34.455Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "_id": "62349279f4f91826d0127b00",
+                                            "name": "Chandru G",
+                                            "emailId": "chandru.g4@gmail.com",
+                                            "roleId": "ROLE_1",
+                                            "password": "$2b$08$lSSvj9reRwVdrB/rKHMuD.q5c.bxKntFiDwAizy6/ineKZVsz/wPC",
+                                            "status": "Approved",
+                                            "createdAt": "2022-03-18T14:08:57.637Z",
+                                            "updatedAt": "2022-03-18T14:08:57.637Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "_id": "62348fdb797c72256a532afe",
+                                            "name": "Chandru",
+                                            "emailId": "chandru.g2@gmail.com",
+                                            "password": "Test@123",
+                                            "roleId": "ROLE_1",
+                                            "mobileNumber": "9500912398",
+                                            "status": "Active",
+                                            "createdAt": "2022-03-18T13:57:47.994Z",
+                                            "updatedAt": "2022-03-18T13:57:47.994Z",
+                                            "__v": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/deleteAdmin": {
+            "delete": {
+                "tags": [
+                    "DeleteAdmin"
+                ],
+                "summary": "response",
+                "description": "DeleteRole",
+                "operationId": "DeleteRole",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "User Deleted Successfully",
+                                "data": null
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/forgetPassword": {
+            "post": {
+                "tags": [
+                    "ForgetPassword"
+                ],
+                "summary": "response",
+                "description": "",
+                "operationId": "ForgetPassword",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/forgetPassword"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": {
+                                    "status": false,
+                                    "message": "Email not exist"
+                                }
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "success",
+                                "data": {
+                                    "status": true,
+                                    "message": "forget password verfication code send to mail"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/resetPassword": {
+            "put": {
+                "tags": [
+                    "ResetPassword"
+                ],
+                "summary": "response",
+                "description": "ResetPassword",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "x-access-token",
+                        "in": "header",
+                        "description": "Token of user",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/resetPassword"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": {
+                                    "status": false,
+                                    "message": "NewPassword does not match with confirmPassword"
+                                }
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "success",
+                                "data": {
+                                    "status": true,
+                                    "message": "Password created succesfully"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/changePassword": {
+            "put": {
+                "tags": [
+                    "ChangePassword"
+                ],
+                "summary": "response",
+                "description": "ChangePassword",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "x-access-token",
+                        "in": "header",
+                        "description": "Token of user",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/changePassword"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": {
+                                    "status": false,
+                                    "message": "NewPassword does not match with confirmPassword"
+                                }
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "success",
+                                "data": {
+                                    "status": true,
+                                    "message": "Password created succesfully"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/forgetPassword/verifyOtp": {
+            "patch": {
+                "tags": [
+                    "VerifyOtp"
+                ],
+                "summary": "response",
+                "description": "verifyOtp",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/verifyOtp"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": {
+                                    "status": false,
+                                    "message": "Invalid Otp"
+                                }
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "success",
+                                "data": {
+                                    "status": true,
+                                    "message": "Otp verified Successfully",
+                                    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyMjFhZWJiNjgwYWU5MjViMDJiODE0ZiIsImlhdCI6MTY0NjkxMjc3NSwiZXhwIjoxNjQ3NTE3NTc1fQ.68Y8WinCyXEhIjMe2I9w6KD8U8DEBECcZ1bdA-XQT5w"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/addPermission": {
+            "post": {
+                "tags": [
+                    "AddPermission"
+                ],
+                "summary": "response",
+                "description": "AddPermission",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/addPermission"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": "permission Already Exists"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "permission Created Successfully",
+                                "data": {
+                                    "_id": "6229e57797d612a399c31623",
+                                    "name": "Write",
+                                    "createdAt": "2022-03-10T11:48:07.732Z",
+                                    "updatedAt": "2022-03-10T11:48:07.732Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/editPermission": {
+            "update": {
+                "tags": [
+                    "EditPermission"
+                ],
+                "summary": "response",
+                "description": "EditPermission",
+                "operationId": "EditPermission",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/addPermission"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "permissionName Created Successfully",
+                                "data": {
+                                    "_id": "6229e57797d612a399c31623",
+                                    "name": "Write Write",
+                                    "createdAt": "2022-03-10T11:48:07.732Z",
+                                    "updatedAt": "2022-03-10T11:52:14.504Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/getPermission": {
+            "get": {
+                "tags": [
+                    "getAllPermission"
+                ],
+                "summary": "response",
+                "description": "getAllPermission",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "",
+                        "name": "",
+                        "description": "response",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": [
+                                    {
+                                        "_id": "623484818965c5208a49eb98",
+                                        "name": "Dashboard",
+                                        "permissionId": "PER_1",
+                                        "createdAt": "2022-03-18T13:09:21.438Z",
+                                        "updatedAt": "2022-03-18T13:09:21.438Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484948965c5208a49eb9c",
+                                        "name": "Customer Database",
+                                        "permissionId": "PER_2",
+                                        "createdAt": "2022-03-18T13:09:40.988Z",
+                                        "updatedAt": "2022-03-18T13:09:40.988Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484a18965c5208a49eba0",
+                                        "name": "Admin Roles",
+                                        "permissionId": "PER_3",
+                                        "createdAt": "2022-03-18T13:09:53.794Z",
+                                        "updatedAt": "2022-03-18T13:09:53.794Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484b68965c5208a49eba4",
+                                        "name": "Land Records",
+                                        "permissionId": "PER_4",
+                                        "createdAt": "2022-03-18T13:10:14.921Z",
+                                        "updatedAt": "2022-03-18T13:10:14.921Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484cc8965c5208a49eba8",
+                                        "name": "Legal Status Report",
+                                        "permissionId": "PER_5",
+                                        "createdAt": "2022-03-18T13:10:36.355Z",
+                                        "updatedAt": "2022-03-18T13:10:36.355Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484dd8965c5208a49ebac",
+                                        "name": "Overall Analysis",
+                                        "permissionId": "PER_6",
+                                        "createdAt": "2022-03-18T13:10:53.282Z",
+                                        "updatedAt": "2022-03-18T13:10:53.282Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484ea8965c5208a49ebb0",
+                                        "name": "Report Generation",
+                                        "permissionId": "PER_7",
+                                        "createdAt": "2022-03-18T13:11:06.604Z",
+                                        "updatedAt": "2022-03-18T13:11:06.604Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "623484f88965c5208a49ebb4",
+                                        "name": "Cadastral Map",
+                                        "permissionId": "PER_8",
+                                        "createdAt": "2022-03-18T13:11:20.910Z",
+                                        "updatedAt": "2022-03-18T13:11:20.910Z",
+                                        "__v": 0
+                                    },
+                                    {
+                                        "_id": "62358ccd3f069d3be6838f7b",
+                                        "name": "Comments",
+                                        "permissionId": "PER_9",
+                                        "createdAt": "2022-03-19T07:57:01.561Z",
+                                        "updatedAt": "2022-03-19T07:57:01.561Z",
+                                        "__v": 0
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/addRole": {
+            "post": {
+                "tags": [
+                    "AddRole"
+                ],
+                "summary": "response",
+                "description": "AddRole",
+                "operationId": "AddRole",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/addRole"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                    "message": "Role Created Successfully",
+                                    "data": {
+                                        "permissions": [],
+                                        "_id": "6235a79a78b7bf9e82cbcecd",
+                                        "roleName": "Customer",
+                                        "description": "Customer",
+                                        "roleId": "ROLE_6",
+                                        "createdAt": "2022-03-19T09:51:22.906Z",
+                                        "updatedAt": "2022-03-19T09:51:22.906Z",
+                                        "__v": 0
+                                    }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/editRole": {
+            "update": {
+                "tags": [
+                    "EditRole"
+                ],
+                "summary": "response",
+                "description": "EditRole",
+                "operationId": "EditRole",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/addRole"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Role Updated Successfully",
+                                "data": {
+                                    "permissions": [],
+                                    "_id": "6235a79a78b7bf9e82cbcecd",
+                                    "roleName": "Customer",
+                                    "description": "Customer",
+                                    "roleId": "ROLE_6",
+                                    "createdAt": "2022-03-19T09:51:22.906Z",
+                                    "updatedAt": "2022-03-19T09:51:22.906Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/getRole": {
+            "get": {
+                "tags": [
+                    "getAllRole"
+                ],
+                "summary": "response",
+                "description": "getAllRole",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "name",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "page",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "limit",
+                        "description": "response",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "pageMeta": {
+                                        "size": 10,
+                                        "page": 1,
+                                        "total": 5,
+                                        "totalPages": 1
+                                    },
+                                    "list": [
+                                        {
+                                            "permissions": [],
+                                            "_id": "6235a79a78b7bf9e82cbcecd",
+                                            "roleName": "Customer",
+                                            "description": "customer",
+                                            "roleId": "ROLE_6",
+                                            "createdAt": "2022-03-19T09:51:22.906Z",
+                                            "updatedAt": "2022-03-19T09:54:45.368Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "permissions": [
+                                                "PER_1",
+                                                "PER_2",
+                                                "PER_5",
+                                                "PER_4"
+                                            ],
+                                            "_id": "623488296ca11521a0c92583",
+                                            "roleName": "Agrotech User",
+                                            "description": "Admin",
+                                            "roleId": "ROLE_4",
+                                            "createdAt": "2022-03-18T13:24:57.971Z",
+                                            "updatedAt": "2022-03-18T14:35:15.235Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "permissions": [
+                                                "PER_5"
+                                            ],
+                                            "_id": "6234881f6ca11521a0c9257f",
+                                            "roleName": "Agrotech Manager",
+                                            "description": "Admin",
+                                            "roleId": "ROLE_3",
+                                            "createdAt": "2022-03-18T13:24:47.448Z",
+                                            "updatedAt": "2022-03-18T14:35:33.324Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "permissions": [
+                                                "PER_1",
+                                                "PER_2"
+                                            ],
+                                            "_id": "623488086ca11521a0c9257b",
+                                            "roleName": "Branch Manager",
+                                            "description": "Branch Manager",
+                                            "roleId": "ROLE_2",
+                                            "createdAt": "2022-03-18T13:24:24.253Z",
+                                            "updatedAt": "2022-03-18T13:24:24.253Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "permissions": [
+                                                "PER_1"
+                                            ],
+                                            "_id": "623487896ca11521a0c92577",
+                                            "roleName": "Bank Executive",
+                                            "description": "Bank Executive",
+                                            "roleId": "ROLE_1",
+                                            "createdAt": "2022-03-18T13:22:17.480Z",
+                                            "updatedAt": "2022-03-18T13:22:17.480Z",
+                                            "__v": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/roles/deleteRole": {
+            "delete": {
+                "tags": [
+                    "DeleteRole"
+                ],
+                "summary": "response",
+                "description": "DeleteRole",
+                "operationId": "DeleteRole",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Role Deleted Successfully",
+                                "data": null
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/completeApplication": {
+            "put": {
+                "tags": [
+                    "CompleteApplication"
+                ],
+                "summary": "response",
+                "description": "CompleteApplication",
+                "operationId": "CompleteApplication",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/completeApplication"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data has been updated",
+                                "data": {
+                                    "termsAndCondition": true,
+                                    "approvalStatus": "APPROVED",
+                                    "_id": "6220ae76dbf94144884f59bb",
+                                    "firstName": "Yogeshwaran",
+                                    "lastName": "M",
+                                    "emailId": "vjyogeshwaran99@gmail.com",
+                                    "role": "622082e8ce7761447c5bd35f",
+                                    "password": "$2b$08$BBPFqJCDHDoGYYfrsUKeAOTRamCroX3b7WadJsNFWTVq1WdWKNq.u",
+                                    "createdAt": "2022-03-03T12:03:02.594Z",
+                                    "updatedAt": "2022-03-14T07:48:05.757Z",
+                                    "__v": 0,
+                                    "otp": "8258",
+                                    "accountNumber": "1234",
+                                    "address": "tesy",
+                                    "mobileNumber": "9500912398",
+                                    "spouseName": "Chandri"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/editProfile": {
+            "put": {
+                "tags": [
+                    "EditProfile"
+                ],
+                "summary": "response",
+                "description": "EditProfile",
+                "operationId": "EditProfile",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/editProfile"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Profile Updated Successfully",
+                                "data": {
+                                    "termsAndCondition": true,
+                                    "approvalStatus": "PENDING",
+                                    "_id": "6229e41997d612a399c31611",
+                                    "firstName": "Chandru",
+                                    "lastName": "Gova",
+                                    "emailId": "chandru.g@gmail.com",
+                                    "role": "622082e8ce7761447c5bd35f",
+                                    "password": "$2b$08$RZJc/FIk1YaHfr1rxYbuPOGctR7mdDF2YJlL2Sof.2lgHcNYGgS.W",
+                                    "createdAt": "2022-03-10T11:42:17.289Z",
+                                    "updatedAt": "2022-03-10T12:27:58.961Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/updateUserDetails": {
+            "put": {
+                "tags": [
+                    "EditProfile"
+                ],
+                "summary": "response",
+                "description": "EditProfile",
+                "operationId": "EditProfile",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/editProfile"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Profile Updated Successfully",
+                                "data": {
+                                    "termsAndCondition": true,
+                                    "approvalStatus": "PENDING",
+                                    "_id": "6229e41997d612a399c31611",
+                                    "firstName": "Chandru",
+                                    "lastName": "Gova",
+                                    "emailId": "chandru.g@gmail.com",
+                                    "role": "622082e8ce7761447c5bd35f",
+                                    "password": "$2b$08$RZJc/FIk1YaHfr1rxYbuPOGctR7mdDF2YJlL2Sof.2lgHcNYGgS.W",
+                                    "createdAt": "2022-03-10T11:42:17.289Z",
+                                    "updatedAt": "2022-03-10T12:27:58.961Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/getUserById": {
+            "get": {
+                "tags": [
+                    "GetUserById"
+                ],
+                "summary": "response",
+                "description": "GetUserById",
+                "operationId": "GetUserById",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "id",
+                        "name": "query",
+                        "description": "response",
+                        "required": true,
+                        "schema": {}
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": "No Data exists"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "termsAndCondition": true,
+                                    "approvalStatus": "PENDING",
+                                    "_id": "6229e41997d612a399c31611",
+                                    "firstName": "Chandru",
+                                    "lastName": "G",
+                                    "emailId": "chandru.g@gmail.com",
+                                    "role": "622082e8ce7761447c5bd35f",
+                                    "password": "$2b$08$RZJc/FIk1YaHfr1rxYbuPOGctR7mdDF2YJlL2Sof.2lgHcNYGgS.W",
+                                    "createdAt": "2022-03-10T11:42:17.289Z",
+                                    "updatedAt": "2022-03-10T12:28:07.850Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/user/getAllUsers": {
+            "get": {
+                "tags": [
+                    "GetAllUsers"
+                ],
+                "summary": "response",
+                "description": "GetAllUsers",
+                "operationId": "GetAllUsers",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "search",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "page",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "limit",
+                        "description": "response",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "status": 400,
+                                "data": "No Data exists"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "pageMeta": {
+                                        "size": 10,
+                                        "page": 1,
+                                        "total": 27,
+                                        "totalPages": 3
+                                    },
+                                    "list": [
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a2222caa4355c5b7cf8e3",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishant.k@doodleblue.com",
+                                            "password": "$2b$08$/IirtDYd2qWkbjiRabVwM.lf3oYuyxIqb5y1V3EIWTQNAPyIoeskq",
+                                            "createdAt": "2022-03-10T16:06:58.291Z",
+                                            "updatedAt": "2022-03-10T16:06:58.291Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a21fbcaa4355c5b7cf8e0",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants442202asdasd3112341123@gmail.com",
+                                            "password": "$2b$08$2JRn69PnTXq7pitOsCmEEOIHEtgq4FJR/wxsBmc0PA5syWtdPIjKO",
+                                            "createdAt": "2022-03-10T16:06:19.124Z",
+                                            "updatedAt": "2022-03-10T16:06:19.124Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a21d5caa4355c5b7cf8dd",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants4422023112341123@gmail.com",
+                                            "password": "$2b$08$4fw7I4lvPdNQedsKUGAoIe8woWyt8Tx.yI88/ayjUDG70KkU.GHKm",
+                                            "createdAt": "2022-03-10T16:05:41.835Z",
+                                            "updatedAt": "2022-03-10T16:05:41.835Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a21becaa4355c5b7cf8da",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants44220231123423@gmail.com",
+                                            "password": "$2b$08$18Zq20.rx2wOLfdLUvA72ONpeI.fCaLhDQsxIKIXDbarGYbNqNbEe",
+                                            "createdAt": "2022-03-10T16:05:18.329Z",
+                                            "updatedAt": "2022-03-10T16:05:18.329Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a21a5caa4355c5b7cf8d7",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants440231123423@gmail.com",
+                                            "password": "$2b$08$6B0WeWJBpVfqQa0qRK6D.e1OG4x5Eiz8GxQ/LSscnMvouD4R5Oiu.",
+                                            "createdAt": "2022-03-10T16:04:53.734Z",
+                                            "updatedAt": "2022-03-10T16:04:53.734Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a2190caa4355c5b7cf8d4",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants4402311@gmail.com",
+                                            "password": "$2b$08$AMti5QoPbv0rnSvmnMh2nO.cEzwA3I4ZF5BL9o2IV.3JL0KziaLyy",
+                                            "createdAt": "2022-03-10T16:04:32.360Z",
+                                            "updatedAt": "2022-03-10T16:04:32.360Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a217dcaa4355c5b7cf8d1",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants44023@gmail.com",
+                                            "password": "$2b$08$.4TxvxZvWMnwQMrjLV0JjO5I6NaGHBR.3FSciG2eQseoLnqmiI6wW",
+                                            "createdAt": "2022-03-10T16:04:13.527Z",
+                                            "updatedAt": "2022-03-10T16:04:13.527Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a2155caa4355c5b7cf8ce",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants4402@gmail.com",
+                                            "password": "$2b$08$YayXDf7Y9LSP.6BK707gE.vJxRv7CXUyOaeDNmR67vgPA2dMTt1pS",
+                                            "createdAt": "2022-03-10T16:03:33.086Z",
+                                            "updatedAt": "2022-03-10T16:03:33.086Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a2144caa4355c5b7cf8ca",
+                                            "firstName": "Nishant",
+                                            "lastName": "Kumar",
+                                            "emailId": "nishants4401@gmail.com",
+                                            "password": "$2b$08$1vLs6NKKSlB6RLFGZYj7J.C.1m0LZXHVhWdi2XtAK37dSgjdhnGgq",
+                                            "createdAt": "2022-03-10T16:03:16.230Z",
+                                            "updatedAt": "2022-03-10T16:03:16.230Z",
+                                            "__v": 0
+                                        },
+                                        {
+                                            "termsAndCondition": true,
+                                            "approvalStatus": "PENDING",
+                                            "_id": "622a0073caa4355c5b7cf8c5",
+                                            "firstName": "Chandru",
+                                            "lastName": "G",
+                                            "emailId": "chandru.g1@gmail.com",
+                                            "password": "$2b$08$zyt93rqnK0hekAIB32Gg6OScECQzQG.iyBcjKBM2iQuLtJPqWP36a",
+                                            "createdAt": "2022-03-10T13:43:15.782Z",
+                                            "updatedAt": "2022-03-10T13:43:15.782Z",
+                                            "__v": 0
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/createLand": {
+            "post": {
+                "tags": [
+                    "CreateLand"
+                ],
+                "summary": "response",
+                "description": "CreateLand",
+                "operationId": "CreateLand",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/createLand"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Land Created Successfully",
+                                "data": {
+                                    "_id": "622b385e69538366bd09495c",
+                                    "surveyNo": "218-111",
+                                    "districtName": "Vishakapatnam",
+                                    "villageName": "Yalamanjili",
+                                    "zoneName": "Yalamanjili",
+                                    "areaUnits": "Cents",
+                                    "nonCultivableArea": "0.0000",
+                                    "cultivableArea": "6.1300",
+                                    "natureOfEarth": "JirattiPatti",
+                                    "discipline": "0.00",
+                                    "landDescription": "Pallam",
+                                    "reservoir": "Canal",
+                                    "strategicArea": "6.1300",
+                                    "accountNumber": "928",
+                                    "graduateName": "Sethu",
+                                    "fatherHusbandSpouseName": "Mani",
+                                    "experienceArea": "1.0200",
+                                    "natureOfExperience": "Purchase",
+                                    "landType": "DryLand",
+                                    "documentNumber": "ASDGH2768",
+                                    "landRate": "109,000",
+                                    "landId": "VIYAYA218-111",
+                                    "createdAt": "2022-03-11T11:54:06.850Z",
+                                    "updatedAt": "2022-03-11T11:54:06.850Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/editLand": {
+            "put": {
+                "tags": [
+                    "EditLand"
+                ],
+                "summary": "response",
+                "description": "EditLand",
+                "operationId": "EditLand",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "response",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/editLand"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "LandRecords Updated Successfully",
+                                "data": {
+                                    "_id": "6229e1a497d612a399c315ee",
+                                    "surveyNo": "120",
+                                    "districtName": "Vishakapatnam",
+                                    "villageName": "Yalamanjili",
+                                    "zoneName": "Yalamanjili",
+                                    "areaUnits": "Cents",
+                                    "nonCultivableArea": "0.0000",
+                                    "cultivableArea": "6.1300",
+                                    "natureOfEarth": "JirattiPatti",
+                                    "discipline": "0.00",
+                                    "landDescription": "Pallam",
+                                    "reservoir": "Canal",
+                                    "strategicArea": "6.1300",
+                                    "accountNumber": "928",
+                                    "graduateName": "Sethu",
+                                    "experienceArea": "1.0200",
+                                    "natureOfExperience": "Purchase",
+                                    "landType": "DryLand",
+                                    "documentNumber": "ASDGH2768",
+                                    "landRate": "109,000",
+                                    "createdAt": "2022-03-10T11:31:48.432Z",
+                                    "updatedAt": "2022-03-10T11:31:48.432Z",
+                                    "__v": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/deleteLand": {
+            "delete": {
+                "tags": [
+                    "DeleteLand"
+                ],
+                "summary": "response",
+                "description": "DeleteLand",
+                "operationId": "DeleteLand",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Land Deleted Successfully",
+                                "data": null
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/getLand": {
+            "get": {
+                "tags": [
+                    "GetLand"
+                ],
+                "summary": "response",
+                "description": "GetLand",
+                "operationId": "GetLand",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "search",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "page",
+                        "description": "response",
+                        "required": false
+                    },
+                    {
+                        "in": "query",
+                        "name": "limit",
+                        "description": "response",
+                        "required": false
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": [
+                                    {
+                                        "_id": "6225b5a3e127b551aa89d09c",
+                                        "surveyNo": "109",
+                                        "districtName": "Vishakapatnam",
+                                        "villageName": "Yalamanjili",
+                                        "zoneName": "Yalamanjili",
+                                        "areaUnits": "Cents",
+                                        "nonCultivableArea": "0.0000",
+                                        "cultivableArea": "6.1300",
+                                        "natureOfEarth": "JirattiPatti",
+                                        "discipline": "0.00",
+                                        "landDescription": "Pallam",
+                                        "reservoir": "Canal",
+                                        "strategicArea": "6.1300",
+                                        "accountNumber": "928",
+                                        "graduateName": "Sethu",
+                                        "spouseName": "Mani",
+                                        "experienceArea": "1.0200",
+                                        "natureOfExperience": "Purchase",
+                                        "landType": "DryLand",
+                                        "documentNumber": "ASDGH2768",
+                                        "landRate": "109,000",
+                                        "createdAt": "2022-03-07T07:34:59.470Z",
+                                        "updatedAt": "2022-03-08T13:33:58.545Z",
+                                        "__v": 0,
+                                        "status": 0
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/getLandById": {
+            "get": {
+                "tags": [
+                    "GetLandById"
+                ],
+                "summary": "response",
+                "description": "GetLandById",
+                "operationId": "GetLandById",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "id",
+                        "description": "response",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "_id": "6225b5a3e127b551aa89d09c",
+                                    "surveyNo": "109",
+                                    "districtName": "Vishakapatnam",
+                                    "villageName": "Yalamanjili",
+                                    "zoneName": "Yalamanjili",
+                                    "areaUnits": "Cents",
+                                    "nonCultivableArea": "0.0000",
+                                    "cultivableArea": "6.1300",
+                                    "natureOfEarth": "JirattiPatti",
+                                    "discipline": "0.00",
+                                    "landDescription": "Pallam",
+                                    "reservoir": "Canal",
+                                    "strategicArea": "6.1300",
+                                    "accountNumber": "928",
+                                    "graduateName": "Sethu",
+                                    "spouseName": "Mani",
+                                    "experienceArea": "1.0200",
+                                    "natureOfExperience": "Purchase",
+                                    "landType": "DryLand",
+                                    "documentNumber": "ASDGH2768",
+                                    "landRate": "109,000",
+                                    "createdAt": "2022-03-07T07:34:59.470Z",
+                                    "updatedAt": "2022-03-08T13:33:58.545Z",
+                                    "__v": 0,
+                                    "status": 0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/land/getCount": {
+            "get": {
+                "tags": [
+                    "GetCount"
+                ],
+                "summary": "response",
+                "description": "GetCount",
+                "operationId": "GetCount",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "districtName",
+                        "description": "response",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "example": {
+                                "success": false,
+                                "status": 400,
+                                "message": "Bad Request"
+                            }
+                        }
+                    },
+                    "200": {
+                        "description": "Successful Operation",
+                        "schema": {
+                            "example": {
+                                "status": 200,
+                                "message": "Data Fetched Successfully",
+                                "data": {
+                                    "totalZoneCount": 2,
+                                    "totalVillageCount": 4,
+                                    "zoneData": [
+                                        {
+                                            "zoneName": "Yalamanjili",
+                                            "villageCount": 2
+                                        },
+                                        {
+                                            "zoneName": "Yalamanjili1",
+                                            "villageCount": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "securitySchemes ": {
+        "bearerAuth": {
+            "type": "http",
+            "scheme": "bearer",
+            "bearerFormat": "JWT"
+        }
+    },
+    "securityDefinitions": {
+        "bearerAuth": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "signUp": {
+            "type": "object",
+            "required": [
+                "firstName",
+                "lastName",
+                "emailId",
+                "setPassword",
+                "confirmPassword"
+            ],
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "emailId": {
+                    "type": "string"
+                },
+                "setPassword": {
+                    "type": "string"
+                },
+                "confirmPassword": {
+                    "type": "string"
+                },
+                "termsAndCondition": {
+                    "type": "Boolean"
+                }
+            },
+            "example": {
+                "firstName": "Chandru",
+                "lastName": "G",
+                "emailId": "chandru.g@gmail.com",
+                "setPassword": "Test@123",
+                "confirmPassword": "Test@123",
+                "termsAndCondition": true
+            }
+        },
+        "createAdmin": {
+            "type": "object",
+            "required": [
+                "firstName",
+                "lastName",
+                "emailId",
+                "setPassword",
+                "confirmPassword"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+               
+                "emailId": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "roleId": {
+                    "type": "string"
+                },
+                "mobileNumber": {
+                    "type": "String"
+                },
+                "status": {
+                    "type": "String"
+                }
+            },
+            "example": {
+                "name":"Chandru",
+                "emailId":"chandru.g3@gmail.com",
+                "password":"Test@123",
+                "roleId" : "ROLE_1",
+                "mobileNumber" : 9500912398,
+                "status" : "Active"
+            }
+        },
+        "login": {
+            "type": "object",
+            "required": [
+                "emailId",
+                "password"
+            ],
+            "properties": {
+                "emailid": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "emailId": "vjyogeshwaran99@gmail.com",
+                "password": "Test@123"
+            }
+        },
+        "forgetPassword": {
+            "type": "object",
+            "required": [
+                "emailId"
+            ],
+            "properties": {
+                "emailid": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "emailId": "vjyogeshwaran99@gmail.com"
+            }
+        },
+        "verifyOtp": {
+            "type": "object",
+            "required": [
+                "emailId",
+                "otp"
+            ],
+            "properties": {
+                "emailid": {
+                    "type": "string"
+                },
+                "otp": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "emailId": "vjyogesh99@gmail.com",
+                "otp": "7073"
+            }
+        },
+        "resetPassword": {
+            "type": "object",
+            "required": [
+                "newPassword",
+                "confirmPassword"
+            ],
+            "properties": {
+                "newPassword": {
+                    "type": "string"
+                },
+                "confirmPassword": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "newPassword": "Test@123",
+                "confirmPassword": "Test@123"
+            }
+        },
+        "changePassword": {
+            "type": "object",
+            "required": [
+                "newPassword",
+                "confirmPassword",
+                "oldPassword"
+            ],
+            "properties": {
+                "oldPassword": {
+                    "type": "string"
+                },
+                "newPassword": {
+                    "type": "string"
+                },
+                "confirmPassword": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "oldPassword": "Test@123",
+                "newPassword": "Test@123",
+                "confirmPassword": "Test@123"
+            }
+        },
+        "addPermission": {
+            "type": "object",
+            "required": [
+                "name"
+            ],
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "name": "Write"
+            }
+        },
+        "addRole": {
+            "type": "object",
+            "required": [
+                "roleName"
+            ],
+            "properties": {
+                "roleName": {
+                    "type": "string"
+                },
+                "permissions": {
+                    "type": "Array"
+                }
+            },
+            "example": {
+                "roleName":"Customer",
+                "description":"Customer",
+                "permissions": []
+            }
+        },
+        "completeApplication": {
+            "type": "object",
+            "required": [
+                "userId",
+                "spouseName",
+                "address",
+                "mobileNumber",
+                "accountNumber"
+            ],
+            "properties": {
+                "userId": {
+                    "type": "string"
+                },
+                "spouseName": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "mobileNumber": {
+                    "type": "string"
+                },
+                "accountNumber": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "userId": "6220ae76dbf94144884f59bb",
+                "spouseName": "Chandri",
+                "address": "tesy",
+                "mobileNumber": "9500912398",
+                "accountNumber": "1234"
+            }
+        },
+        "editProfile": {
+            "type": "object",
+            "required": [],
+            "properties": {
+                "userId": {
+                    "type": "string"
+                },
+                "firstName": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "emailId": {
+                    "type": "string"
+                },
+                "spouseName": {
+                    "type": "string"
+                },
+                "address": {
+                    "type": "string"
+                },
+                "mobileNumber": {
+                    "type": "string"
+                },
+                "accountNumber": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "firstName": "Chandru",
+                "lastName": "G"
+            }
+        },
+        
+        "createLand": {
+            "type": "object",
+            "required": [
+                "surveyNo",
+                "districtName",
+                "villageName",
+                "zoneName",
+                "areaUnits",
+                "nonCultivableArea",
+                "cultivableArea",
+                "natureOfEarth",
+                "discipline",
+                "landDescription",
+                "reservoir",
+                "strategicArea",
+                "accountNumber",
+                "graduateName",
+                "fatherHusbandSpouseName",
+                "experienceArea",
+                "natureOfExperience",
+                "landType",
+                "documentNumber",
+                "landRate"
+            ],
+            "properties": {
+                "surveyNo": {
+                    "type": "string"
+                },
+                "districtName": {
+                    "type": "string"
+                },
+                "villageName": {
+                    "type": "string"
+                },
+                "zoneName": {
+                    "type": "string"
+                },
+                "areaUnits": {
+                    "type": "string"
+                },
+                "nonCultivableArea": {
+                    "type": "string"
+                },
+                "cultivableArea": {
+                    "type": "string"
+                },
+                "natureOfEarth": {
+                    "type": "string"
+                },
+                "discipline": {
+                    "type": "string"
+                },
+                "landDescription": {
+                    "type": "string"
+                },
+                "reservoir": {
+                    "type": "string"
+                },
+                "strategicArea": {
+                    "type": "string"
+                },
+                "accountNumber": {
+                    "type": "string"
+                },
+                "graduateName": {
+                    "type": "string"
+                },
+                "fatherHusbandSpouseName": {
+                    "type": "string"
+                },
+                "experienceArea": {
+                    "type": "string"
+                },
+                "natureOfExperience": {
+                    "type": "string"
+                },
+                "landType": {
+                    "type": "string"
+                },
+                "documentNumber": {
+                    "type": "string"
+                },
+                "landRate": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "surveyNo": "218-111",
+                "districtName": "Vishakapatnam",
+                "villageName": "Yalamanjili",
+                "zoneName": "Yalamanjili",
+                "areaUnits": "Cents",
+                "nonCultivableArea": "0.0000",
+                "cultivableArea": "6.1300",
+                "natureOfEarth": "JirattiPatti",
+                "discipline": "0.00",
+                "landDescription": "Pallam",
+                "reservoir": "Canal",
+                "strategicArea": "6.1300",
+                "accountNumber": "928",
+                "graduateName": "Sethu",
+                "fatherHusbandSpouseName": "Mani",
+                "experienceArea": "1.0200",
+                "natureOfExperience": "Purchase",
+                "landType": "DryLand",
+                "documentNumber": "ASDGH2768",
+                "landRate": "109,000"
+            }
+        },
+        "editLand": {
+            "type": "object",
+            "required": [],
+            "properties": {
+                "surveyNo": {
+                    "type": "string"
+                },
+                "districtName": {
+                    "type": "string"
+                },
+                "villageName": {
+                    "type": "string"
+                },
+                "zoneName": {
+                    "type": "string"
+                },
+                "areaUnits": {
+                    "type": "string"
+                },
+                "nonCultivableArea": {
+                    "type": "string"
+                },
+                "cultivableArea": {
+                    "type": "string"
+                },
+                "natureOfEarth": {
+                    "type": "string"
+                },
+                "discipline": {
+                    "type": "string"
+                },
+                "landDescription": {
+                    "type": "string"
+                },
+                "reservoir": {
+                    "type": "string"
+                },
+                "strategicArea": {
+                    "type": "string"
+                },
+                "accountNumber": {
+                    "type": "string"
+                },
+                "graduateName": {
+                    "type": "string"
+                },
+                "fatherHusbandSpouseName": {
+                    "type": "string"
+                },
+                "experienceArea": {
+                    "type": "string"
+                },
+                "natureOfExperience": {
+                    "type": "string"
+                },
+                "landType": {
+                    "type": "string"
+                },
+                "documentNumber": {
+                    "type": "string"
+                },
+                "landRate": {
+                    "type": "string"
+                }
+            },
+            "example": {
+                "surveyNo": "120",
+                "districtName": "vishakapatnam",
+                "villageName": "yalamanjili",
+                "zoneName": "yalamanjili",
+                "areaUnits": "Cents",
+                "nonCultivableArea": "0.0000",
+                "cultivableArea": "6.1200",
+                "natureOfEarth": "jiratti Patti",
+                "discipline": "0.00",
+                "landDescription": "pallam",
+                "reservoir": "canal",
+                "strategicArea": "6.1200",
+                "accountNumber": "929",
+                "graduateName": "Curry Ishwari",
+                "spouseName": "Nageswara",
+                "experienceArea": "1.0200",
+                "natureOfExperience": "purchase",
+                "landType": "dryLand",
+                "documentNumber": "ASDGH2767",
+                "landRate": "110,000"
+            }
+        }
+    },
+    "externalDocs": {
+        "description": "Find out more about Swagger",
+        "url": "http://swagger.io"
+    }
+}

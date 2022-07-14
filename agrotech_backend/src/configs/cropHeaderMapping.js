@@ -1,0 +1,15 @@
+module.exports = {
+  A: "state", 
+  B: "district",
+  C: "mandal",
+  D: "village",
+  E: "cadastralNo",
+  F: "villaCad",
+  G: "cropType",
+  H: "cropName",
+  I: "tentativeSowing",
+  J: "tentativeHarvesting",
+  K: "cropHealth",
+  L: "estimatedYield",
+  M: "lastSatelliteInspection",
+}

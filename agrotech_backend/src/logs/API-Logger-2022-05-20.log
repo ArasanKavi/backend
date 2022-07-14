@@ -1,0 +1,18 @@
+20/5/2022 2:59 | /responses.js(137) | Vl8c0IbCAuqfgb44iCfeiFMXJ5RsuuKB | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 2:59 | /responses.js(137) | GfFjSdbvI8so78ioUxc27TImbIQb0b7x | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 2:59 | /responses.js(137) | dBaIqfGSn5Iw6FDCxMiDnXEAzFrhjncf | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 2:59 | /responses.js(137) | DKk1ktQSpFo0zTPbf8XQ1Ued83LQKfmH | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 4:08 | /errorHandler.js(7) | aoKcHWiO641kX02kQTuZvorMYFVB1qot | [error] | IP - ::ffff:223.187.116.148 | URL : http://doodlebluelive.com:2122/api/v1/application/bulk | POST | Request : {} | Error : CUSTOMER_DATA_SHEET is not defined
+20/5/2022 6:09 | /errorHandler.js(7) | mQvwzbLFrcnURf76ocZP2skSkpevNQGr | [error] | IP - ::ffff:49.36.144.52 | URL : http://doodlebluelive.com:2122/api/v1/application/bulk | POST | Request : {} | Error : CUSTOMER_DATA_SHEET is not defined
+20/5/2022 6:10 | /errorHandler.js(7) | Uh34aUkvnjYyc14Pzak0qXSjtTxINqTS | [error] | IP - ::ffff:49.36.144.52 | URL : http://doodlebluelive.com:2122/api/v1/application/bulk | POST | Request : {} | Error : CUSTOMER_DATA_SHEET is not defined
+20/5/2022 6:38 | /responses.js(137) | VSP0JjObGQRwOFHkEtk9haspCZcO5kF9 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 6:38 | /responses.js(137) | 1R7R41EdCArC8NYh1fg7ukDGqQHunvtd | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 6:38 | /responses.js(137) | dmRWlusjE8fWnb22lmpOM2L68gcTXGEo | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+20/5/2022 7:17 | /responses.js(137) | mR7wQZ2LDNgJ3A9mHFwZnCpNeEwpnY3F | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:17 | /responses.js(137) | h7vgBckIwScJnwlstpvHGBKPZhDekTY8 | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:24 | /responses.js(137) | qdpM8bbwt9ylveUYqXzDLyqe8DjGEjpP | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:25 | /responses.js(137) | JJDrNYtHGXouEmY1BUjEO24CN1YMKX2d | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:26 | /responses.js(137) | 8O8BP8LDtjJdrPH4zDNKAPBs5Nr3K84P | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:26 | /responses.js(137) | XyhnuirEQmLk5K37EWIFXG0CDu1aOAv8 | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 7:26 | /responses.js(137) | WnlZTMTFgDUc4L78pM2EwPQfM1z6yFOz | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+20/5/2022 14:00 | /responses.js(137) | MZETS6fqKPruoD2t8IGc0eSZAE2ZJu2X | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request

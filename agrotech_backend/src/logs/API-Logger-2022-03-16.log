@@ -1,0 +1,53 @@
+16/3/2022 6:45 | /responses.js(139) | OyGdLYK0VYvzha6rIJumIQJnoB3QgfG2 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+16/3/2022 7:14 | /errorHandler.js(7) | OFoupzxHLBidkES35qj4sURr5kXFcroA | [error] | IP - ::ffff:203.192.238.168 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : ENOENT: no such file or directory, open 'public/uploads/file-1647414889950-446789843-landDetails.xlsx'
+16/3/2022 8:44 | /responses.js(139) | AnLo700dDkfABjDB8cpYpuUBRxY5Yqgi | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 10:34 | /responses.js(139) | bAdPpYa2YIaQwxMGdN4xriHp3gaHJouZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+16/3/2022 13:08 | /errorHandler.js(7) | nDJGUCYaT5s4o6P0XwbZcYnzMnc5mQOl | [error] | IP - ::ffff:27.7.66.250 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 13:29 | /responses.js(139) | 7DhdgAd4qdPFQhkPmlrNX4HhBQCp6YVu | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword/reset | Request : {} | Error : Bad Request
+16/3/2022 13:47 | /responses.js(139) | 3IR7NyfRfhq2qn1HgBAoE15kibL1kLyW | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+16/3/2022 13:52 | /responses.js(139) | LkgSiYyifzzcDcUfwm38mf4rDJWyT4J6 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+16/3/2022 13:52 | /responses.js(139) | MRnOTikgB6iPmA6xzKRdwX2GlkjotvF5 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+16/3/2022 13:52 | /responses.js(139) | HyMdYalcdifEcbuwb4oQhbPToiw0qar3 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | 6Xlj2MGXpe1ncQfCftAUnFSozrcDCTfY | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | CyKMijiifSSeP8RNdE6Ppxu61h1baRAT | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | efUQ1uFGSKFYZNPIECpxbGmobXSh8IzC | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | 0Pjy68kEuSVnGPT7hLf80dTe8qNhH8X3 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | bl6yDLXPmHS400BkElb8GtmY4gGWhX0O | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | SXEa1QGLi8zyCSnSuupVvLtlr9ia1mpB | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | cMJ5Pkc4Pi5woJvXaGC4eLY1hllh6sQn | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | mnj8nYUzhrGEcUKWIzsk5IT8pTzv7ydC | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | h41uLX5wcEFnqwykb47W8P95oECVwLNN | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | a9sH0NSaoJcue1OEoDcrZIGaxDeiMrOH | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | Xus4toAsOEa41y1qulCPgBHLmIRjqLnZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | 1kg49d2oMETwp6sRCWupoTM0Pmhut6Jy | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | 4yZDH1Cx0BFSMX66YrvwxWpVajSCj3ld | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:53 | /responses.js(139) | 0TkAgY8k5vQTlDyrnII8LkzfPXMoFcNP | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | bi6e8DPc4yANNykiKC906vq3zVSxGqbx | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | L1j7LxPKFx1OZqjzZ7I8NdQ1vpp9fXS3 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | 4pn7qHNBIZdIeKjD5Z8KsML3A2kcQXkD | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | Sm1SmpE2BvXDeutziwJtFkPi13hm21cq | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | wcVdijkv0rPXeGTa02ym5Yp1GNzCrv3N | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | qg0J3lY8j6zRM56yclmSdO8GGGGvNJ38 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | UZU5aeq9JmMoIgPoYeFOijse6h3Oiu9O | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:54 | /responses.js(139) | 0vrJFxZjkAq1DSzdRGJpOz8HWal8v64t | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:57 | /responses.js(139) | 6LItWpTeTAID2a4EiFJ8wEVZYzIjrUnR | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:57 | /responses.js(139) | qjhepc2LT6enU84fj1PZ0YOsf48Oto1W | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:57 | /responses.js(139) | W8qXCERe3raJsN6gj5gJJrRp2qREiZ5v | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 13:57 | /responses.js(139) | n6TJPTVbogich9ZsWHQo9og0oWOCwHZM | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+16/3/2022 15:07 | /responses.js(139) | jSLYRKPxFmm2W2BJdEZL6DSnzA6Es4Wf | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:09 | /responses.js(139) | HIUeZtEMQLPUmk8NfQV30ICwbh4jhCSJ | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:09 | /responses.js(139) | a1e1BOa4Ow1bnCUoL6g1SABZSWFMGnOQ | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:10 | /responses.js(139) | c9QkME8yqevIJE4qTSONdPX7FRVGyF8n | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:14 | /responses.js(139) | 51per37eoWd2h2BUZxj9qyKVpWon13Kk | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:14 | /responses.js(139) | aGIzzrn6OVeIDOWhntKXuKZhKXCt3hwZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:15 | /responses.js(139) | WZXCyXGUKEc0KklfFJdNOx4OEDQZDNxb | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:15 | /responses.js(139) | ZWAgE8HUQzm87EfZmTa8BPezayTFcvxS | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:16 | /responses.js(139) | jgzfYfwUmCnTUNdiaPTLz5M46HPMXEPn | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 15:17 | /responses.js(139) | uqlLuthc3AxfVKxbcVEDm678LyZTkNHn | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+16/3/2022 16:16 | /errorHandler.js(7) | 71afyhe4quvZCIgFI9PXnMK9jpVzDglY | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:22 | /errorHandler.js(7) | abUOnTNGYmfIuXc0irYoWO2PkbrC2UBt | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:23 | /errorHandler.js(7) | uIhvXqnvDNPmoRauguKoaVTKYGhHgfNV | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:24 | /errorHandler.js(7) | 8Nl6LPPzQpcPRowQ2KBRsCCb2CROQ5UG | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:27 | /errorHandler.js(7) | k5leX7EYqOJNH9ATLh3iX6isW8FujoiP | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:28 | /errorHandler.js(7) | x9E7OTmrJcG9r9unZElcGrxR1QTKqDka | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!
+16/3/2022 16:28 | /errorHandler.js(7) | nhUSEXQZ2YiSeM01dTnig3PaIJvO0pwZ | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Can't find end of central directory : is this a zip file ? If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html

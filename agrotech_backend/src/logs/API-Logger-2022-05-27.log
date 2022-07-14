@@ -1,0 +1,9 @@
+27/5/2022 4:29 | /responses.js(137) | TRJDtJXWIM9fU4pxy13llLX7mHiiI7ZE | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/createApplication | Request : {} | Error : Bad Request
+27/5/2022 7:47 | /errorHandler.js(7) | tsMCudkULUXR68UPgXsr5PcEx9edEtDD | [error] | IP - ::ffff:1.38.61.55 | URL : http://doodlebluelive.com:2122/api/v1/application/bulk | POST | Request : {} | Error : CUSTOMER_DATA_SHEET is not defined
+27/5/2022 7:50 | /responses.js(137) | Pp9iwxTaHFquzf4im1bCGlTB8ijALHd0 | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=6290822fbd77c967df851af7 | Request : {} | Error : Bad Request
+27/5/2022 8:38 | /responses.js(137) | awB4gSupH8bTULHXL1RXTHKiqYTQoH5w | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=62908440a75da74a90b04eb9 | Request : {} | Error : Bad Request
+27/5/2022 10:11 | /responses.js(137) | L6m2U9YBr51pom4LuTVgrNXRG4NA6VVx | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=6290a3c7eaeaa335f03476f1 | Request : {} | Error : Bad Request
+27/5/2022 10:11 | /responses.js(137) | DO23fsYaq5metn1foH03XQ8d8h7tU4R5 | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=6290a3c7eaeaa335f03476f1 | Request : {} | Error : Bad Request
+27/5/2022 10:11 | /responses.js(137) | jrPqMyAUGNtsVKQj0Lt5Oo39DvFhVnPf | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=6290a3c7eaeaa335f03476f1 | Request : {} | Error : Bad Request
+27/5/2022 11:21 | /responses.js(137) | 6xppWw54ffRvZMYhPRvg6gCdoEEHNG9Q | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/changePassword | Request : {} | Error : Bad Request
+27/5/2022 12:01 | /responses.js(137) | 7fm2nlbrMePqLiby6wRN5IYSkN946mMh | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request

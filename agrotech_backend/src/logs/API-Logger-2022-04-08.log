@@ -1,0 +1,9 @@
+8/4/2022 8:17 | /errorHandler.js(7) | pgMtkTNKOwmJnIYGQsadHv17dgrHLqmM | [error] | IP - ::ffff:103.88.59.113 | URL : http://doodlebluelive.com:2122/api/v1/land/download?startDate=startDate&endDate=endDate | GET | Request : {} | Error : Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "land"
+8/4/2022 9:57 | /responses.js(137) | luUmjdsQOtni2ghE4ujMVQJiQkaGhtkw | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request
+8/4/2022 9:57 | /responses.js(137) | TyhZ3eHQSjIfbyfb30THm5Q1LrxF3SXR | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request
+8/4/2022 9:57 | /responses.js(137) | YUicfcMLGEG8CFA9vls23IjLOIcfj5Qw | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request
+8/4/2022 10:00 | /responses.js(137) | rWC62MoHMYSutH09LviBoqrMEKXNs5Le | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createUserByStaff | Request : {} | Error : Bad Request
+8/4/2022 12:27 | /responses.js(137) | qrcs7SqdEu3klXDoWO9v6uosTVgIPvaT | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+8/4/2022 12:27 | /responses.js(137) | 5vCGWvMpJMY6Z4SDsdZNQz9JaYUKodls | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+8/4/2022 12:52 | /responses.js(137) | nxq9hiiNp1vqAodIzRNWpdYC3SXFtkrJ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request
+8/4/2022 12:53 | /responses.js(137) | Ytv3KdffiZtuzjht1hTONNaF9lk34jAW | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request

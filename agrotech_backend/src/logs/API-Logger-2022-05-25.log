@@ -1,0 +1,3 @@
+25/5/2022 4:13 | /responses.js(137) | phYHP4TZoCo6M5yjz66K7TGtVNMdTME6 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+25/5/2022 5:36 | /responses.js(137) | B5AbWz73mtXsqetMLzPjgycGR7DH6LID | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editAdmin?id=628dbeabaa03a67bbc977729 | Request : {} | Error : Bad Request
+25/5/2022 6:31 | /responses.js(137) | R6X7YBVXzBr7DeAcEUTnPNl3dYZn2BEE | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request

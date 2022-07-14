@@ -1,0 +1,2 @@
+3/6/2022 6:39 | /responses.js(137) | tzOnAhpfRwLYfsVcCHnNQMGPUHXsRRF4 | [error] | URL : http://doodlebluelive.com:2122/api/v1/application/editApplication?id=6298506506762bca7d2ee25c | Request : {} | Error : Bad Request
+3/6/2022 13:12 | /errorHandler.js(7) | krqzXmDbSgIf1N408JKwtwHf7RpWb2mq | [error] | IP - ::ffff:49.36.144.80 | URL : http://doodlebluelive.com:2122/api/v1/application/getApplicationReportStatusCount | GET | Request : {} | Error : {}

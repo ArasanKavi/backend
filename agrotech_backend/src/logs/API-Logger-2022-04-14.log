@@ -1,0 +1,11 @@
+14/4/2022 4:34 | /responses.js(137) | eLBt3WyMnRyXqQqeJSOw6pOz9dYpfZaT | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 5:08 | /responses.js(137) | mhnl1YGgaWymbtiHEbwV06scfkhOLY2t | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 5:35 | /responses.js(137) | 3gRQsZKElRsKu6A1ARekj2B6QFXI6f5p | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+14/4/2022 6:09 | /responses.js(137) | Yia765ZNjm3OprCwIXOzB0VLirTIXdnL | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editAdmin?id=6257aa7383ad47e681026720 | Request : {} | Error : Bad Request
+14/4/2022 6:09 | /responses.js(137) | Fua1JAzLKpdcnxjMmBXqN9O4W0PqGPMK | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editAdmin?id=6257aa7383ad47e681026720 | Request : {} | Error : Bad Request
+14/4/2022 11:32 | /responses.js(137) | RMdTF4Yp1hgtXNCEZcyKDdtTNbLfgVpz | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 11:32 | /responses.js(137) | VKF6CTxbPg39GE9F9j6b6KFrcH8YCdxa | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 16:22 | /responses.js(137) | SFxogrjjRBGDQYezOQWKOlBJWyVpe2Cx | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 16:28 | /responses.js(137) | hrzFSDBkjnen0aR5Y9N1MKED3f8NUZFL | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+14/4/2022 17:48 | /responses.js(137) | PZo1xeTNKcS8jjQP5R7gZThVi4Aj3z7U | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+14/4/2022 17:49 | /responses.js(137) | IW3jc9JQIW9Lfhr1scLKobEGBJlgh7ct | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request

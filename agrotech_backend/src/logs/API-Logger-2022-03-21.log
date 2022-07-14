@@ -1,0 +1,8 @@
+21/3/2022 10:54 | /errorHandler.js(7) | 63N6sMK4pT2VSrF6qdEIAZNPsbdPGhgM | [error] | IP - ::ffff:117.213.145.65 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Can't find end of central directory : is this a zip file ? If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html
+21/3/2022 11:06 | /errorHandler.js(7) | HJsyzcHMZzWqLfWIrYHEdVLsDf99gOXV | [error] | IP - ::ffff:117.213.145.65 | URL : http://doodlebluelive.com:2122/api/v1/user/bulk | POST | Request : {} | Error : Can't find end of central directory : is this a zip file ? If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html
+21/3/2022 11:08 | /responses.js(139) | B1HWkQjoSly16p0IIBGLEZmwqFSXuPuz | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+21/3/2022 11:16 | /responses.js(139) | BraWfY94d0fQuTvpbeDjUcBvDBg3z1bR | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+21/3/2022 11:16 | /responses.js(139) | 9mxQ5r8jBSuPBLXP1mGGvBBjiYein1lP | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+21/3/2022 11:20 | /responses.js(139) | Wi2Dr0Q0eNoQGu0fjD3UdEWkhQOqPukF | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+21/3/2022 17:30 | /responses.js(139) | TspNE9r2Rem3TooiXIcbEStnRYJMZMOP | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+21/3/2022 17:30 | /responses.js(139) | koxFHLUcc3m0aQ18A5DNZGopYTQEjFkv | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request

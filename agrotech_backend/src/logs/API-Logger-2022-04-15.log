@@ -1,0 +1,7 @@
+15/4/2022 11:29 | /responses.js(137) | gIpZAG911kILaD46cEsK3P9irej1VUBW | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+15/4/2022 12:52 | /responses.js(137) | 4AjDyJqjBIO17dZYblWhwZ5VIQ26xhPd | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editProfile/?id=6229e41997d612a399c31611 | Request : {} | Error : Bad Request
+15/4/2022 12:53 | /responses.js(137) | Or1ReKmO31n56lqMsslTCuaAgfolksDn | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editProfile/?id=6229d94772e77140b4fca4f9 | Request : {} | Error : Bad Request
+15/4/2022 14:09 | /responses.js(137) | Pxk4Z2xy4PUu9A5kt3tsuId9g5OSuEE8 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword/reset | Request : {} | Error : Bad Request
+15/4/2022 14:10 | /responses.js(137) | 9XEr0NB8oPnPr34NRESnnHhzcBWNhJ9J | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword/reset | Request : {} | Error : Bad Request
+15/4/2022 14:15 | /responses.js(137) | 9s4NjY91kwX9LZIPXDyEaiSI2KJQaJBs | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+15/4/2022 14:16 | /responses.js(137) | hVeDPrca85omv3PekbhzuBt14y07L6mN | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request

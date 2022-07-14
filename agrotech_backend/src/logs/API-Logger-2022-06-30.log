@@ -1,0 +1,5 @@
+30/6/2022 8:18 | /responses.js(137) | n3Nd0F9UjQzX9Mu7hfJxaYBeiK3lYnO3 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/createAdmin | Request : {} | Error : Bad Request
+30/6/2022 10:20 | /responses.js(137) | 9JgOgYFDNOSc94lWtdUDP5gqKnVm0l5K | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+30/6/2022 10:54 | /responses.js(137) | IE3DQ9JXfRmD81wiKhk9qKzwDX9D9V23 | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/deleteRole | Request : {} | Error : Bad Request
+30/6/2022 10:54 | /responses.js(137) | 1OKFgqaPH5DAJ5UoV3QptN4E3j2Gi6lW | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/deleteRole | Request : {} | Error : Bad Request
+30/6/2022 10:58 | /responses.js(137) | tkymTVqZykqOPb2LwcyXr8EnZARClhaG | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/deleteRole | Request : {} | Error : Bad Request

@@ -1,0 +1,6 @@
+"patient_id","patient_name","patient_date_of_birth","patient_gender","patient_address","patient_phone_no","patient_marital_status","patient_type","organisation","referral_code","profile_complete","profile_created_at"
+"846","Safikan Khatoon","1970-01-01","Female","Village premhata post ukhai  thana siwan bihar 841227","6207437152","Married","RETAIL",,"Outsourced_Market_Analysis",false,"2021-10-19 12:50:48"
+"21852","Musafir verma","1990-02-02","Male","Vill-Raipur khurasin Dist-Azamgarh Stete U.P.","9506510785","Married","RETAIL",,"DAV_United",false,"2022-01-17 19:29:34"
+"22995","Safiq Saifi","1962-01-01","Male","New Delhi","8979481118","Married","RETAIL",,"AdBox_Families_Marketing_Team",false,"2022-01-18 20:22:00"
+"PAT5","Safwaan Ahmed","07/03/1997","male","10/17 Venugopal Avenue, Spur Tank Road, Chetpet","8122250021",,"RETAIL",,,true,"2022-02-11 09:09:26"
+"PAT630","Gulsafa","1998-1-1","NULL","NULL","7599859440",,"RETAIL","NULL","AdBox",false,"2022-02-25 10:51:14"

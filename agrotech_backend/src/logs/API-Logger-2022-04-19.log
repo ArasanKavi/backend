@@ -1,0 +1,25 @@
+19/4/2022 7:52 | /responses.js(137) | s6ap0w4sQmonvTtgBfsjysADXIo41Yyk | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 7:52 | /responses.js(137) | TYPCIS8CA5FQOpFc0qtXvWtDfdNR0eQ2 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 7:53 | /responses.js(137) | OrDhQ1FJ0I2fOKcO3LaNrWeFgO7PV5VB | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editProfile?id=6241655a0202adff432e6f9f | Request : {} | Error : Bad Request
+19/4/2022 7:53 | /responses.js(137) | p8Bf5LfRS2PjO3Gk3BVZaxc7cB4Oo6Yi | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/editProfile?id=6241655a0202adff432e6f9f | Request : {} | Error : Bad Request
+19/4/2022 7:54 | /responses.js(137) | MGE2i5AcmK8D1hjk9Z6mzJ0Kk9M8yZ23 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 10:07 | /responses.js(137) | yuvnP0QqbShAViaYu7qFNXgjjWOXH6Wk | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 10:07 | /responses.js(137) | gv9JGrM4h9ikHBhDf4Izs80Q00nK2KgQ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 10:19 | /responses.js(137) | NuERT0gGNWbjUB1wTwaLl9u9sGBCA9FO | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 11:40 | /responses.js(137) | qa44sBxkbJxSiNqvPMFi0Hyi3Rn0CU67 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 11:40 | /responses.js(137) | etLsqypG94hFyeO2HUAXUbsprdPnk7XQ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 11:53 | /responses.js(137) | FV5afZwH2YRT48RGUxOjrDd2SFaDPkC3 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 11:54 | /responses.js(137) | 8VwxjxYli2qFIfMcLOqQPEaHr5qwg6YZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 11:54 | /responses.js(137) | oekkHudMeFDnh2GG9rSU6M1vlJjKy8T7 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:08 | /errorHandler.js(7) | bEMOQttnHokfjfDtADOC7Gm5gQCG5kTa | [error] | IP - ::ffff:103.88.59.233 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined
+19/4/2022 12:18 | /responses.js(137) | wpkwAV9D9xeL9VH0mIjF31lfv5Qpkqcd | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:18 | /responses.js(137) | 8T1YIVcMQ3vQWJZZqoRpgpgFqz8iNjLX | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:19 | /responses.js(137) | DrZwF6q1CuFwSyVkhM38az924hzRKjkG | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:31 | /responses.js(137) | J3EEv1YLmRcQNY1cHn7ieFsBJ5Hx5ofS | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:50 | /responses.js(137) | VPAuaXcLqQVCQX60MkndNRUxaWMFG8iS | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 12:50 | /responses.js(137) | KPAtviXmRMdMyNfrcpsuxho01TKIj8Q9 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/4/2022 15:48 | /errorHandler.js(7) | nKFZQqm6yUJdS5yHxb7JK2956ckcJJ00 | [error] | IP - ::ffff:103.177.175.25 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined
+19/4/2022 15:48 | /errorHandler.js(7) | L3vHT05oCArEuQUdenYSA3ck7OPf6scm | [error] | IP - ::ffff:103.177.175.25 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined
+19/4/2022 16:18 | /errorHandler.js(7) | SW0HtFQIBledBwiYW9gL88CmTJc7d90w | [error] | IP - ::ffff:103.177.175.25 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined
+19/4/2022 16:18 | /errorHandler.js(7) | 47k6XK5imnrQwnadPkgurjxaDvdkjkb6 | [error] | IP - ::ffff:103.177.175.25 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined
+19/4/2022 16:18 | /errorHandler.js(7) | linVt1BZhvMDsRFS68Be5GSmjWDjCMBh | [error] | IP - ::ffff:103.177.175.25 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"branchCode":"1588","password":""} | Error : undefined

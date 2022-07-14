@@ -1,0 +1,22 @@
+28/3/2022 5:06 | /responses.js(137) | H3DHIRaXqv5uPYQ7cAepPVRyK6YzTIdZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | 9tcCJfnrpvXWhYKgRstPfhhTTuXz2cy2 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | HvnqNxwVqYBxAMiFIL0xQuoHjaswWd5N | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | krw9cWh7wuWLLjTwujlrCy2ZGPqdx7xZ | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | fe0k6Ea2L9Mutia8aIBMq1o4jZ1BdrU9 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | H1bzuQ5WDSLoekKSMdxdgpsY50BaLcdy | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | 9EjxqNu5UjxaZ2TEWLBxo4rKvlVCWxOe | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | prolGI5uqHumAnFfpZwO1FVapUxNZr0z | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | o7Iq6AjRdC9FUaw9L0N2Tc67yTsEYTf1 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | QPVnJ1yp4rFhxp9AaKxIGQK7fNE87uUG | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:06 | /responses.js(137) | P50kQ0p2bycwqgZPkkz6SZj8MjRYKIxt | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /errorHandler.js(7) | FCGSfyIJkMmRTwu3uEpQseqic0qDr2mF | [error] | IP - ::ffff:27.4.233.197 | URL : http://doodlebluelive.com:2122/api/v1/user/reportGeneration | POST | Request : {"userId":"623b07d9fc0ce4627a0a88e5"} | Error : {}
+28/3/2022 5:08 | /responses.js(137) | 8I75UTKIluDHiqwaTG9gobRHp4bOCuCP | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | y0xqMmnvNXuVIHYoBuiRTRRUZQpW8gJs | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | eumoboGWXSGiO2nfKk4vIra8MHf5K2it | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | kUq34IyFQQ5aBOtwPQKVFOFPBRpH4Mtj | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | feKu8FCFRWc4jk8zUuRiAb9nD7ZCWaRo | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | aUKILDz2u2gFxPHe9mFHXYmcuhwbIMOS | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:08 | /responses.js(137) | v7gbDcDvU3QTkc4jqP9BJKdMddV7cESX | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+28/3/2022 5:14 | /errorHandler.js(7) | FUAbR2j3BWGDNyEugj6P7OQqduyX0v67 | [error] | IP - ::ffff:27.4.233.197 | URL : http://doodlebluelive.com:2122/api/v1/application/getApplication?search=198-3 | GET | Request : {} | Error : date is not defined
+28/3/2022 7:25 | /responses.js(137) | Gdz7O0QRcbImSxStsHhPQ9OFRwXXQcaL | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/completeForm | Request : {} | Error : Bad Request
+28/3/2022 12:03 | /errorHandler.js(7) | 5ifgsQPsJ7CSprNl2QN3FOM49FGpAV73 | [error] | IP - ::ffff:103.225.58.144 | URL : http://doodlebluelive.com:2122/api/v1/user/getUserById?id=%2262415fcb0202adff432e6f38 | GET | Request : {} | Error : {"stringValue":"\"\"62415fcb0202adff432e6f38\"","valueType":"string","kind":"ObjectId","value":"\"62415fcb0202adff432e6f38","path":"_id","reason":{},"name":"CastError","message":"Cast to ObjectId failed for value \"\"62415fcb0202adff432e6f38\" (type string) at path \"_id\" for model \"user\""}

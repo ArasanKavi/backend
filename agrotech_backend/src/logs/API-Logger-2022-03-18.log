@@ -1,0 +1,12 @@
+18/3/2022 13:18 | /responses.js(139) | i6eyjIuipQH6NFPLv0QwZLuhAxF04769 | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+18/3/2022 14:34 | /responses.js(139) | rbLUkHWc9pA30llE78okLhNH6EsOgGJU | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+18/3/2022 14:37 | /responses.js(139) | C0LavM1X2TvOHH3QuZEygJ4d431vmLbn | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+18/3/2022 14:37 | /responses.js(139) | odz9AAtUNL0mPIm0IeIGtHTVEJYx5pra | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | LmEtgEV07oPz6bhQdVDQXG6TakJGDKxT | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | VAirmqTCh7GhDGeccnNMNEmEF2qrrUVg | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | SRdzvMQdIGiTCflM0Lrb8hjef7ZC5nUN | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | pk84siqi4lPCf6GhJx2JnnleELeU7aDR | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | 3C5dXYmHf5AE4NE4RAwFRXAej50fSDto | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /responses.js(139) | 0GESKJ5tsZL3baPDJdLu2YaE6nHREqpj | [error] | URL : http://doodlebluelive.com:2122/api/v1/land/createLand | Request : {} | Error : Bad Request
+18/3/2022 14:39 | /errorHandler.js(7) | DvlLOUUFnTEF7Axcp1atmxFXovSzOaLj | [error] | IP - ::ffff:59.97.63.208 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Can't find end of central directory : is this a zip file ? If it is, see https://stuk.github.io/jszip/documentation/howto/read_zip.html
+18/3/2022 15:15 | /errorHandler.js(7) | xZffLwaahC6sU2TmFKNQojeSNVDar7Jx | [error] | IP - ::ffff:103.58.153.223 | URL : http://doodlebluelive.com:2122/api/v1/land/bulk | POST | Request : {} | Error : Only .xlsx, .xls and .csv format allowed!

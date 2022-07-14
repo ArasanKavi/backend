@@ -1,0 +1,2 @@
+15/6/2022 7:59 | /errorHandler.js(7) | qaC1udd7RXgG3L0mbsEhdygcknKpHnRj | [error] | IP - ::ffff:103.88.59.233 | URL : http://doodlebluelive.com:2122/api/v1/application/getApplicationStatusCount | GET | Request : {} | Error : {}
+15/6/2022 9:48 | /responses.js(137) | ORoNIriDtoXWzCGNawhDB5RhYxtavXR8 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/getAllUsers?limit=10&page=1&search=&status:%22PENDING%22&=1&status=&startDate=&endDate=&searchType=0 | Request : {} | Error : Bad Request

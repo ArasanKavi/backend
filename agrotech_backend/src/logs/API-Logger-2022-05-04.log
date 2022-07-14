@@ -1,0 +1,8 @@
+4/5/2022 5:13 | /errorHandler.js(7) | FtIIJWXITXhrTHhmElE3EjjY8momfXfD | [error] | IP - ::ffff:117.241.208.231 | URL : http://doodlebluelive.com:2122/api/v1/user/bulk | POST | Request : {} | Error : Cannot read property 'length' of undefined
+4/5/2022 5:13 | /errorHandler.js(7) | n319NZJmPc9cv8JnGXZ87AFYEbzAPylA | [error] | IP - ::ffff:117.241.208.231 | URL : http://doodlebluelive.com:2122/api/v1/user/bulk | POST | Request : {} | Error : Cannot read property 'length' of undefined
+4/5/2022 6:31 | /responses.js(137) | UP7VzgDeyyNrPeZMOLHV37dNcwhwt9Th | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+4/5/2022 6:32 | /responses.js(137) | HsaSL4ylFxUt8K5nPKG8ouI7etI3xCPH | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
+4/5/2022 7:45 | /errorHandler.js(7) | eYhNm7qGD8oekvMhfyYqhPBtvO3Z7zNS | [error] | IP - ::ffff:103.88.59.233 | URL : http://doodlebluelive.com:2122/api/v1/application/bulk | POST | Request : {} | Error : CUSTOMER_DATA_SHEET is not defined
+4/5/2022 8:16 | /responses.js(137) | 8ZpaWoIrxzBvAHxPaEfaEoeQHALoohsR | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+4/5/2022 10:10 | /responses.js(137) | 08HjJbuKOTsd37uxvCNjqtPKS3nMHSEK | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+4/5/2022 10:31 | /responses.js(137) | aK6bvDDEee5isdgDxbJ4KAtJAOW2NfyC | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request

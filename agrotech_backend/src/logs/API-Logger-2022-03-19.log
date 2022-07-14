@@ -1,0 +1,8 @@
+19/3/2022 7:00 | /responses.js(139) | a4CMcvezGpwU0JSsZLCpNlRcceQi7axY | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+19/3/2022 7:00 | /responses.js(139) | ACoQVXvAQEBSpCtDdEf7SeYmB2LEXj8L | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+19/3/2022 7:13 | /responses.js(139) | Hj84pL2PqDxssyrr93FPKcmQvD3Gdf1P | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+19/3/2022 8:33 | /errorHandler.js(7) | lSr9ItYIIWKMjUeHNLQrk0R7LBY906Xt | [error] | IP - ::ffff:115.97.229.176 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"emailId":"nishants440@gmail.com","password":""} | Error : undefined
+19/3/2022 8:33 | /errorHandler.js(7) | eY4iagRxLH263tXbQaaGbZSMmPYnQAzw | [error] | IP - ::ffff:115.97.229.176 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"emailId":"nishants440@gmail.com","password":""} | Error : undefined
+19/3/2022 8:34 | /errorHandler.js(7) | tK8m7Eohht6fJ4nojHiBy7Hfk3W1ALRD | [error] | IP - ::ffff:115.97.229.176 | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | POST | Request : {"emailId":"nishants440@gmail.com","password":""} | Error : undefined
+19/3/2022 8:59 | /responses.js(139) | R2zDXQupFeIArsbKwSFo5mv3rd9u3zhC | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+19/3/2022 8:59 | /responses.js(139) | Lc1WykafdUeEJ4ewB1SoJx0M5rZPvhxw | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request

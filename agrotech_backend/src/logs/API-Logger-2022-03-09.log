@@ -1,0 +1,6 @@
+9/3/2022 15:20 | /responses.js(139) | pfaDk1YMUDgNTlyt6wFj8hfx6ebs1rpW | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+9/3/2022 15:22 | /responses.js(139) | MWni7p3z6J0J2HLyONBJGzXM4WZgw2YT | [error] | URL : http://doodlebluelive.com:2122/api/v1/roles/addRole | Request : {} | Error : Bad Request
+9/3/2022 22:13 | /responses.js(139) | YTeUQMpFIecRIb9rz1jMzMuOpVTn6P3t | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+9/3/2022 22:14 | /responses.js(139) | swx6DUtijAXHIlofScuRAIuW5N4cse94 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signup | Request : {} | Error : Bad Request
+9/3/2022 22:22 | /responses.js(139) | z8naLmfADzpeqsSwHSIg8cLOqpVFNzuN | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/signIn | Request : {} | Error : Bad Request
+9/3/2022 22:28 | /responses.js(139) | 52brksieJBwF3hzXu50DLu5NDGkZTnU8 | [error] | URL : http://doodlebluelive.com:2122/api/v1/user/forgetPassword | Request : {} | Error : Bad Request
