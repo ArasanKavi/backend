@@ -3,46 +3,44 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="411636737021"
         AWS_DEFAULT_REGION="us-east-1" 
-        IMAGE_REPO_NAME="sample-nodejs-app"
-        IMAGE_TAG="latest"
-        REPOSITORY_URI = "411636737021.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app"
     }
    
     stages {
         
-         stage('Logging into AWS ECR') {
-            steps {
-                script {
-                      sh "aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 411636737021.dkr.ecr.us-east-1.amazonaws.com"
-                       }
-                 
-                  }
-        }
+         
         
         stage('Cloning Git') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: "https://github.com/ArasanKavi/backend.git"]]])     
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '', url: 'https://github.com/ArasanKavi/backend.git']]])     
             }
         }
-  
-    // Building Docker images
+    // Deleting Existing containers and images
+    stage('Deleting image and container') {
+      steps{
+        script {
+          sh "docker rm -f agro25"
+          sh "docker rmi sample-nodejs-app"
+        }
+      }
+    }
+    
+   // Building Docker images
     stage('Building image') {
       steps{
         script {
-          dockerImage = docker.build "sample-nodejs-app:latest"
+          sh "docker build -t sample-nodejs-app ."
         }
       }
     }
    
     // Uploading Docker images into AWS ECR
-    stage('Pushing to ECR') {
-     steps{  
-         script {
-                sh "docker tag sample-nodejs-app:latest 411636737021.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest"
-                sh "docker push 411636737021.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest"
-                sh "docker run -itd -p 2172:2172 411636737021.dkr.ecr.us-east-1.amazonaws.com/sample-nodejs-app:latest"
-         }
-        }
+    
+    stage('Run Container on Server Dev') {
+	  steps{  
+	      sh """
+	      docker run -itd --name agro25 -p 2004:2122 sample-nodejs-app
+	      """
       }
     }
+  }
 }
